@@ -245,6 +245,8 @@ p {
   align-items: center;
 }
 
+
+
 .footerBtmCnt {
   display: flex;
   justify-content: space-around;
@@ -266,4 +268,3 @@ p {
   justify-content: space-around;
   align-items: center;
 }
-
