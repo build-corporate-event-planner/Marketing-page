@@ -193,6 +193,50 @@ header {
   height: 90vh;
   border-radius: 5px;
 }
+@media only screen and (max-width: 500px) {
+  .hero {
+    height: 33vh;
+  }
+  .navbar {
+    flex-direction: column;
+  }
+  .packages {
+    flex-direction: column;
+  }
+  h3 {
+    font-size: 2rem;
+  }
+  .footerBtmCnt{
+    flex-direction: column;
+  }
+  li {
+    flex-direction: column;
+  }
+ }
+
+
+@media only screen and (max-width: 1000px) {
+  .hero {
+    height: 50vh;
+  }
+  .navbar {
+    flex-direction: column;
+  }
+  .packages {
+    flex-direction: row-reverse;
+  }
+  h3 {
+    font-size: 2rem;
+  }
+  .footerBtmCnt{
+    flex-direction: column;
+  }
+  li {
+    flex-direction: column;
+  }
+  .services board
+ }
+
 
 .maincontent {
   display: flex;
@@ -201,6 +245,11 @@ header {
   color: white;
 }
 
+.eventimgs img {
+  width: 100%;
+  border-radius: 5px;
+
+}
 .descriptions {
   width: 50%;
   padding: 2%;
@@ -232,11 +281,13 @@ p {
   padding-bottom: 5%;
 }
 
-.boarder {
+.border {
   border: 1px gold solid;
   border-radius: 15px;
-  padding: 1%;
-  margin: 1%;
+  width: 100%;
+  padding: 2%;
+  margin: 2%;
+  text-align: center;
 }
 
 .about-maincontent {
@@ -268,3 +319,5 @@ p {
   justify-content: space-around;
   align-items: center;
 }
+
+
