@@ -219,6 +219,10 @@ header {
   li {
     flex-direction: column;
   }
+  .navbar a:hover {
+    color: gold;
+    transform: scale(1.05);
+  }
   
  }
 
@@ -241,6 +245,10 @@ header {
   }
   li {
     flex-direction: column;
+  }
+  .navbar a:hover {
+    color: gold;
+    transform: scale(1.05);
   }
  }
 
